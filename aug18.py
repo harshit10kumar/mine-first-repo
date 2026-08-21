@@ -123,14 +123,52 @@ b=str(a)
 print(b)
 print(type(b))'''
 
-a=True
+'''a=True
 b=int(a)
 print(b)
 print(type(b))
 a="100"
 b=int(a)
 print(b)
-print(type(b))
+print(type(b))'''
 '''a='harshit'
 b=int(a)
 print(b)'''
+
+'''print('hello world')
+a=""
+a=bool(a)
+print(a)
+print(type(a))'''
+a=None
+print(a)
+print(type(a))
+
+'''s1='hello'
+s2='hi'
+s3="""hi,
+this is harshit
+from gla"""
+print(s1,s2,s3)
+print(s1,s3)'''
+x= [10,20,30,40,50]
+y=bytes(x)
+print(type(y))
+'''x=[10,20,30,40,50]
+y=bytes(x)
+print(y[0])
+print(y[1])
+print(y[2])
+print(y[3])'''
+'''x=[10,20,30,40,50]
+y=bytes(x)
+for i in y:
+    print(i)
+
+x=[10,20,30,40,50]
+y=bytes(x)
+y[0]=30'''
+a=range(5)
+print(a)
+for x in a:
+    print(x)
