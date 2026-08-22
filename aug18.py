@@ -169,6 +169,37 @@ x=[10,20,30,40,50]
 y=bytes(x)
 y[0]=30'''
 a=range(5)
-print(a)
-for x in a:
-    print(x)
+a=''
+print(bool(a)+3)
+print(5+int('123'))
+print('2'+str(344))
+a=10
+b=20   
+c=(a if a<b else b)+20
+print(c)
+if a<b:
+    if b>c:
+        print ('b is greater')
+    else:
+        print('c is greater')
+        print ('a is the smallest')
+else:
+    if a>c:
+        print('a is greater')
+    else:
+        print('c is greater')    
+        print('b is the smallest')        
+d=a+b
+print(d)
+d=a-b
+print(d)
+d=a*b
+print(d)
+d=a/b
+print(d)
+d=a//b
+print(d)
+d=a%b
+print(d)
+d=a**b                
+print(d)
